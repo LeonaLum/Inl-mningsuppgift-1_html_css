@@ -1,0 +1,271 @@
+*{
+  background-color: white;
+
+}
+
+
+.img_appelpie{
+height:100%;
+width:100%;
+}
+.img_blabarspaj{
+  width:40px;
+  height:40px;
+}
+.img_scones{
+  width:40px;
+  height:40px;
+}
+.img_stew{
+  margin-top:4px;
+  width:40px;
+  height:40px;
+}
+.img_bars{
+  width:40px;
+  height:40px;
+}
+.img_fudge{
+  margin-top:4px;
+  width:40px;
+  height:40px;
+}
+
+
+
+
+
+.wrapper{
+  height:1500px;
+}
+.container-header{
+  flex-basis: 100%;
+  height:130px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.banner{
+flex-basis: 50%;
+height: 50%;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+}
+.biggest-heading{
+ margin:0;
+ flex-basis: 100%;
+ height: 100%;
+ background-image: url("heart-banner.jpg");
+}
+.biggest-heading h1{
+  background: rgba(255, 255, 255, 0.2);
+  color: rgb(110, 0, 0);
+  font-size: 35px;
+}
+
+
+.nav{
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+.menu{
+  flex-basis: 100%;
+  height: 100%;
+  background-color: rgb(194, 0, 97);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.nav .menu a{
+  font-size: 23px;
+  color: white;
+  text-align: center;
+  background-color: rgb(194, 0, 97);
+  flex-basis: 100%;
+  text-decoration: none;
+}
+.middle-container{
+  background-color:rgb(255, 217, 239);
+  display: flex;
+  height: 90%;
+}
+.main{
+  font-family: 'Josefin Sans', sans-serif;
+  height: 100%;
+  flex-basis: 80%;
+  display: flex;
+  margin-left:20px;
+}
+
+
+.dessert-article,.dessert-article h3,.dessert-article h2{
+  background-color:rgb(255, 217, 239);
+}
+.dessert-article h2{
+  color: rgb(46, 46, 46);
+  font-size: 40px;
+  padding-bottom: 20px;
+  border-bottom:rgb(255, 196, 230) solid 4px;
+  margin-bottom: 10px;
+}
+.dessert-article h3{
+  color: rgb(99, 99, 99);
+  font-size: 24px;
+  margin:10px 0 20px 0;
+}
+.dessert-article{
+height: 100%;
+flex-basis: 100%;
+}
+.dessert-image{
+  width: 600px;
+  height: 500px;
+  border: dashed white 5px;
+}
+
+h4{
+  background-color: rgb(255, 255, 255);
+  color: rgb(99, 99, 99);
+  padding:20px;
+}
+.list-how-to-make{
+  padding-top:30px;
+  padding-bottom:30px;
+  color: rgb(61, 61, 61);
+}
+.li-how-to-make{
+  padding: 10px;
+}
+
+
+
+
+
+
+
+.container-right{
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100%;
+  flex-basis: 60%;
+  background-color:rgb(255, 217, 239);
+}
+
+.container-aside{
+  display:flex;
+  height: 5%;
+  flex-basis: 10%;
+  border:solid red 3px;
+  background-color:rgb(255, 217, 239);
+}
+
+.similar-recepies h2{
+  margin-top: 50px;
+  background-color:rgb(255, 217, 239);
+}
+.similar-recepies{
+  font-family: 'Josefin Sans', sans-serif;
+  color:rgb(194, 0, 97);
+  text-align: center;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  background-color:rgb(255, 217, 239);
+}
+
+.recipe{
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  display:flex;
+  align-items: center;
+  justify-content: flex-start;
+  width:90%;
+  height: 50px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.recipe a{
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.picture-span{
+  margin-left:10px;
+  margin-right: 10px;
+
+}
+
+
+.container-facts{
+
+    display:flex;
+    justify-content: space-around;
+    height: 40%;
+    flex-basis: 40%;
+    background-color:rgb(255, 217, 239);
+}
+
+
+.facts{
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+  color: grey;
+  padding:20px;
+  font-size: 25px;
+  margin-top:30px;
+  height: 75%;
+  flex-basis: 70%;
+  border-radius: 10px;
+
+ 
+}
+
+.container-ingredients{
+  display:flex;
+  justify-content: space-around;
+  flex-basis: 62%;
+  background-color:rgb(255, 217, 239);
+}
+
+
+.ingredients{
+  font-family: 'Architects Daughter', cursive;
+  text-align: center;
+  color: grey;
+  font-size: 25px;
+  background-color: white;
+  border-radius: 10px;
+  flex-basis: 70%;
+  height: 70%;
+}
+.ingredients ul, .ingredients ul li{
+  padding: 8px;
+  list-style: none;
+}
+
+
+
+
+.container-footer{
+  background-color: rgb(194, 0, 97);
+  height:11%;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding:20px;
+}
+.footer-content a{
+  font-family: 'Josefin Sans', sans-serif;
+  text-decoration: none;
+  flex-basis: 100%;
+  padding:20px;
+  border-radius: 10px;
+}
+
